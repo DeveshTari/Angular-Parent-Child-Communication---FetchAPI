@@ -1,0 +1,27 @@
+<p>data-table works!</p>
+
+
+<table >
+
+<thead>
+    <tr>
+        <th>login</th>
+        <th>id</th>
+        <th>repos_url</th>
+        <th>type</th>
+    </tr>
+</thead>
+<tbody>
+    <tr *ngFor="let value of data">
+
+        <td>{{value.login}}</td>
+        <td>{{value.id}}</td>
+        <td>{{value.repos_url}}</td>
+        <td>{{value.type}}</td>
+    </tr>
+</tbody>
+
+
+
+
+</table>

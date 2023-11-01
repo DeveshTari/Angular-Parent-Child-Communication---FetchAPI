@@ -1,0 +1,12 @@
+<p>parent works!</p>
+
+<!-- TODO below for parent to child -->
+
+<!-- <app-child [childData]="parentData"></app-child> -->
+
+
+<!-- TODO below for counter to parent -->
+
+<app-counter [count]="parentCount" (countChange)="onCountChange($event)"></app-counter>
+
+<p>Count in Parent: {{ parentCount }}</p>
